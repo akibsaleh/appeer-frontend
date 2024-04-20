@@ -618,26 +618,14 @@ video {
 .m-0 {
   margin: 0px;
 }
+.-mt-4 {
+  margin-top: -1rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 .mb-2\.5 {
   margin-bottom: 0.625rem;
-}
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-.-mt-4 {
-  margin-top: -1rem;
-}
-.-mt-3 {
-  margin-top: -0.75rem;
-}
-.-mt-3\.5 {
-  margin-top: -0.875rem;
 }
 .flex {
   display: flex;
@@ -654,29 +642,20 @@ video {
 .h-4 {
   height: 1rem;
 }
+.h-5 {
+  height: 1.25rem;
+}
 .h-9 {
   height: 2.25rem;
+}
+.h-\[1px\] {
+  height: 1px;
 }
 .h-auto {
   height: auto;
 }
 .h-full {
   height: 100%;
-}
-.h-5 {
-  height: 1.25rem;
-}
-.h-1 {
-  height: 0.25rem;
-}
-.h-0 {
-  height: 0px;
-}
-.h-0\.5 {
-  height: 0.125rem;
-}
-.h-\[1px\] {
-  height: 1px;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -687,14 +666,14 @@ video {
 .w-4 {
   width: 1rem;
 }
+.w-5 {
+  width: 1.25rem;
+}
 .w-\[640px\] {
   width: 640px;
 }
 .w-full {
   width: 100%;
-}
-.w-5 {
-  width: 1.25rem;
 }
 .max-w-sm {
   max-width: 24rem;
@@ -773,44 +752,20 @@ video {
 .bg-destructive {
   background-color: hsl(var(--destructive));
 }
-.bg-destructive\/20 {
-  background-color: hsl(var(--destructive) / 0.2);
+.bg-destructive\/10 {
+  background-color: hsl(var(--destructive) / 0.1);
+}
+.bg-emerald-600\/10 {
+  background-color: rgb(5 150 105 / 0.1);
+}
+.bg-muted-foreground\/20 {
+  background-color: hsl(var(--muted-foreground) / 0.2);
 }
 .bg-primary {
   background-color: hsl(var(--primary));
 }
 .bg-secondary {
   background-color: hsl(var(--secondary));
-}
-.bg-success\/20 {
-  background-color: hsl(var(--success) / 0.2);
-}
-.bg-success {
-  background-color: hsl(var(--success));
-}
-.bg-emerald-600\/20 {
-  background-color: rgb(5 150 105 / 0.2);
-}
-.bg-emerald-600\/10 {
-  background-color: rgb(5 150 105 / 0.1);
-}
-.bg-destructive\/10 {
-  background-color: hsl(var(--destructive) / 0.1);
-}
-.bg-foreground {
-  background-color: hsl(var(--foreground));
-}
-.bg-foreground\/20 {
-  background-color: hsl(var(--foreground) / 0.2);
-}
-.bg-foreground\/10 {
-  background-color: hsl(var(--foreground) / 0.1);
-}
-.bg-muted-foreground {
-  background-color: hsl(var(--muted-foreground));
-}
-.bg-muted-foreground\/20 {
-  background-color: hsl(var(--muted-foreground) / 0.2);
 }
 .object-cover {
   -o-object-fit: cover;
@@ -825,14 +780,13 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
-.p-2 {
-  padding: 0.5rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
-.p-2\.5 {
-  padding: 0.625rem;
-}
-.p-1 {
-  padding: 0.25rem;
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -846,22 +800,6 @@ video {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.px-2\.5 {
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -869,6 +807,14 @@ video {
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pt-0 {
   padding-top: 0px;
@@ -937,12 +883,6 @@ video {
 }
 .text-success {
   color: hsl(var(--success));
-}
-.text-success-foreground {
-  color: hsl(var(--success-foreground));
-}
-.text-foreground {
-  color: hsl(var(--foreground));
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
