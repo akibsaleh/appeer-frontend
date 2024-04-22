@@ -1,15 +1,21 @@
 import Credentials from 'next-auth/providers/credentials';
+import Google from 'next-auth/providers/google';
+import Github from 'next-auth/providers/github';
 import SignInSchema from './schemas/SigninSchema';
 import { NextAuthConfig } from 'next-auth';
 import axios from 'axios';
 
 export default {
   providers: [
+    Google({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
+    Github({
+      clientId: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET,
+    }),
     Credentials({
-      credentials: {
-        username: { label: 'Username', type: 'text', placeholder: 'jsmith' },
-        password: { label: 'Password', type: 'password' },
-      },
       async authorize(credentials) {
         const validatedFiles = SignInSchema.safeParse(credentials);
 

@@ -7,7 +7,7 @@ const SignInPage = () => {
     return (
         <section className="h-full w-full flex justify-center items-center">
             <div className="w-[640px] h-full flex justify-center items-center">
-                <CardWrapper backLinkLabel="Sign Up" backLabel="Don't have an account?" backLink="/auth/signin">
+                <CardWrapper backLinkLabel="Sign Up" backLabel="Don't have an account?" backLink="/auth/signup">
                     <SignInForm />
                 </CardWrapper>
             </div>

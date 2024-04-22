@@ -109,6 +109,46 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _auth_core_providers_credentials__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _auth_core_providers_credentials__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @auth/core/providers/credentials */ \"(rsc)/./node_modules/@auth/core/providers/credentials.js\");\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1hdXRoL3Byb3ZpZGVycy9jcmVkZW50aWFscy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFpRDtBQUNVIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXBwZWVyLWZyb250ZW5kLy4vbm9kZV9tb2R1bGVzL25leHQtYXV0aC9wcm92aWRlcnMvY3JlZGVudGlhbHMuanM/ZTI2MyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tIFwiQGF1dGgvY29yZS9wcm92aWRlcnMvY3JlZGVudGlhbHNcIjtcbmV4cG9ydCB7IGRlZmF1bHQgfSBmcm9tIFwiQGF1dGgvY29yZS9wcm92aWRlcnMvY3JlZGVudGlhbHNcIjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-auth/providers/credentials.js\n");
 
+/***/ }),
+
+/***/ "(action-browser)/./node_modules/next-auth/providers/github.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-auth/providers/github.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @auth/core/providers/github */ \"(action-browser)/./node_modules/@auth/core/providers/github.js\");\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== \"default\") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0LWF1dGgvcHJvdmlkZXJzL2dpdGh1Yi5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUE0QztBQUNVIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXBwZWVyLWZyb250ZW5kLy4vbm9kZV9tb2R1bGVzL25leHQtYXV0aC9wcm92aWRlcnMvZ2l0aHViLmpzP2UyZTgiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcIkBhdXRoL2NvcmUvcHJvdmlkZXJzL2dpdGh1YlwiO1xuZXhwb3J0IHsgZGVmYXVsdCB9IGZyb20gXCJAYXV0aC9jb3JlL3Byb3ZpZGVycy9naXRodWJcIjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/next-auth/providers/github.js\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next-auth/providers/github.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-auth/providers/github.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _auth_core_providers_github__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @auth/core/providers/github */ \"(rsc)/./node_modules/@auth/core/providers/github.js\");\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1hdXRoL3Byb3ZpZGVycy9naXRodWIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBNEM7QUFDVSIsInNvdXJjZXMiOlsid2VicGFjazovL2FwcGVlci1mcm9udGVuZC8uL25vZGVfbW9kdWxlcy9uZXh0LWF1dGgvcHJvdmlkZXJzL2dpdGh1Yi5qcz83Yzg0Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCJAYXV0aC9jb3JlL3Byb3ZpZGVycy9naXRodWJcIjtcbmV4cG9ydCB7IGRlZmF1bHQgfSBmcm9tIFwiQGF1dGgvY29yZS9wcm92aWRlcnMvZ2l0aHViXCI7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-auth/providers/github.js\n");
+
+/***/ }),
+
+/***/ "(action-browser)/./node_modules/next-auth/providers/google.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-auth/providers/google.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @auth/core/providers/google */ \"(action-browser)/./node_modules/@auth/core/providers/google.js\");\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== \"default\") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFjdGlvbi1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0LWF1dGgvcHJvdmlkZXJzL2dvb2dsZS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUE0QztBQUNVIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXBwZWVyLWZyb250ZW5kLy4vbm9kZV9tb2R1bGVzL25leHQtYXV0aC9wcm92aWRlcnMvZ29vZ2xlLmpzP2VhYmQiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcIkBhdXRoL2NvcmUvcHJvdmlkZXJzL2dvb2dsZVwiO1xuZXhwb3J0IHsgZGVmYXVsdCB9IGZyb20gXCJAYXV0aC9jb3JlL3Byb3ZpZGVycy9nb29nbGVcIjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(action-browser)/./node_modules/next-auth/providers/google.js\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next-auth/providers/google.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-auth/providers/google.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _auth_core_providers_google__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @auth/core/providers/google */ \"(rsc)/./node_modules/@auth/core/providers/google.js\");\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1hdXRoL3Byb3ZpZGVycy9nb29nbGUuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBNEM7QUFDVSIsInNvdXJjZXMiOlsid2VicGFjazovL2FwcGVlci1mcm9udGVuZC8uL25vZGVfbW9kdWxlcy9uZXh0LWF1dGgvcHJvdmlkZXJzL2dvb2dsZS5qcz81ZTY1Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gXCJAYXV0aC9jb3JlL3Byb3ZpZGVycy9nb29nbGVcIjtcbmV4cG9ydCB7IGRlZmF1bHQgfSBmcm9tIFwiQGF1dGgvY29yZS9wcm92aWRlcnMvZ29vZ2xlXCI7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-auth/providers/google.js\n");
+
 /***/ })
 
 };
